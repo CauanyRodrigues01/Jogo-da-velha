@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href=".\css\style.css" />
+  </head>
+  <body>
+    <div id="gamer">
+    <form id="cadastroPartida">
+      <label for="nome-jogador1">Jogador 1</label>
+      <input id="nome-jogador1" class="jogador1" />
+      <select class="jogador1" >
+        <option value="" ></option>
+        <option>X</option>
+        <option>O</option>
+      </select>
+
+      <label for="nome-jogador2">Jogador 2</label>
+      <input id="nome-jogador2" class="jogador2" />
+      <select class="jogador2">
+        <option value="" ></option>
+        <option>X</option>
+        <option>O</option>
+      </select>
+
+      <button type="submit" id="inicar" onclick="iniciarPartida()">
+        Iniciar Batalha
+      </button>
+    </form>
+
+    <h1>Jogo da Velha</h1>
+    <div class="oponentes">
+        <label id="nome-pessoa1"></label>
+        <label id="nome-pessoa2"></label>
+    </div>
+    <div>
+      <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div>
+      <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div>
+      <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+      <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div class="jogador">
+      <label>Vez do Jogador:</label>
+      <label id="jogador-selecionado"></label>
+    </div>
+    <div class="vencedor">
+      <label>Vencedor:</label>
+      <label id="vencedor-selecionado"></label>
+    </div>
+
+    <button onclick="reiniciar()">Reiniciar Partida</button>
+
+    <button onclick="salvarPartida()">Salvar Partida</button>
+
+    <button type="submit" id="adicionarLinha" onclick="criarTabela(), mostrarPlacar()">Ver Placar</button>
+    
+    <button onclick="fecharPlacar()">Fechar Placar</button>
+
+    <a href="index.html"><button onclick="restartGame()">Sair</button></a>
+
+    <table id="placar"></table>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    </div>
+  </body>
+</html>
