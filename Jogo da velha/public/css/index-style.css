@@ -1,0 +1,30 @@
+#container-index {
+  background: url("../img/fundoIndex.svg") no-repeat 100% /
+    clamp(25rem, 45vw, 50rem);
+}
+
+.text-main.introducao {
+  width: 35%;
+}
+
+.text-main.introducao h1 {
+  color: #ff87f3;
+}
+
+.text-main.introducao strong {
+  display: block;
+  color: #ffffff;
+}
+
+.text-main.introducao p {
+  font-size: clamp(1rem, 1.8vw, 3rem);
+  line-height: clamp(2.5rem, 5vh, 3rem);
+}
+
+.invitation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 40%;
+}

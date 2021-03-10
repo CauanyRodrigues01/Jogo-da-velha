@@ -1,0 +1,62 @@
+.main-placar {
+  background: url("../img/placar-menino.svg") no-repeat left bottom,
+    url("../img/placar-menina.svg") no-repeat right bottom;
+
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  overflow: hidden;
+}
+
+.tabela {
+  background: rgba(248, 248, 255, 0.302);
+  border-radius: 10px;
+  width: clamp(20rem, 50vw, 60rem);
+  height: clamp(30rem, 50vh, 40rem);
+
+  display: flex;
+  justify-content: center;
+
+  padding: 1rem;
+
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(248, 248, 255, 0.302);
+}
+
+table {
+  color: #fff;
+}
+
+th {
+  border: 2px solid #e5a4ed;
+  border-radius: 10px;
+  padding: 0.7rem;
+  margin: 1rem;
+
+  color: #ffffff;
+}
+
+td {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.controles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
