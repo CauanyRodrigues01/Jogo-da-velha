@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="icon" href="./public/img/jogoDaVelha.svg" />
+
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./public/css/Placar-style.css" />
+    <link rel="stylesheet" href="./public/css/gamer-style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="page">
+      <div id="container-placar" class="container">
+        <header>
+          <a href="index.html"
+            ><img src=".\public\img\Logo.svg" alt="Jogo da velha"
+          /></a>
+        </header>
+
+        <main class="main-placar">
+          <div class="tabela">
+            <table id="placar">
+              <tr>
+                <th>N° de partida</th>
+                <th>Vencedor</th>
+              </tr>
+              <tr></tr>
+            </table>
+          </div>
+          <aside class="controles">
+            <button class="button button-basic" onclick="window.location.href = 'gamer.html'" onclick="fecharPlacar()">VOLTAR</button>
+          </aside>
+        </main>
+        <footer>
+          <!--Rodapé-->
+        </footer>
+      </div>
+    </div>
+    <script type="text/javascript" src="./public/js/placar-script.js"></script>
+  </body>
+</html>
