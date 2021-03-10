@@ -21,7 +21,7 @@ O Jogo da velha TEC é um gamer que consiste, como o nome já sugere, em um jogo
 
 ### 2. Instruções 
 
-![](https://github.com/CauanyRodrigues01/Jogo-da-velha/blob/main/Demonstra%C3%A7%C3%A3o/instrucoes.png)]
+![](https://github.com/CauanyRodrigues01/Jogo-da-velha/blob/main/Demonstra%C3%A7%C3%A3o/instrucoes.png)
 
 ### 3. Cadastro
 
