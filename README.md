@@ -1,4 +1,4 @@
-![](C:\Users\cauan\Documents\GitHub\Jogo-da-velha\Jogo da velha\public\img\Logo.svg)
+![](https://github.com/CauanyRodrigues01/Jogo-da-velha/blob/main/Jogo%20da%20velha/public/img/Logo.svg)
 
 
 
